@@ -1,0 +1,19 @@
+IMPÉRIO AMBIENTAL - IMPLEMENTAÇÃO CONSERVADORA
+
+O design e os recursos originais foram mantidos. O único elemento novo nas páginas existentes é o aviso de consentimento.
+
+O script anterior gtag.js (AW-611720549) foi removido de cada página para evitar carregamento antes da escolha e duplicação.
+O GTM-PD5RRP7 só carrega após ACEITAR. Rejeitar não carrega GTM, GA4 ou Ads pelo código desta entrega.
+Eventos enviados ao dataLayer após consentimento: whatsapp_click, phone_click, email_click, pdf_download_click. Configure acionadores de evento personalizado no GTM.
+
+ANTES DE PUBLICAR:
+1. Revise e complete a política de privacidade (arquivo preliminar).
+2. No GTM, revise e PAUSE tags antigas de conversão até validar acionadores, rótulos e duplicação.
+3. Confira a tag GA4 G-HBRL4VD3P3 e evite outra instalação do mesmo ID.
+4. Faça teste em hospedagem HTTPS de pré-produção: rejeitar = sem GTM; aceitar = GTM presente; GA4 DebugView; eventos; navegação e responsividade.
+5. Se publicar GTM, verifique o status do contêiner e as políticas de consentimento.
+6. Atenção: essa implementação básica não envia sinais Consent Mode v2 'denied' ao Google antes da escolha, pois não carrega o GTM; para uma implementação certificada/avançada e controles separados para Analytics/Ads, usar CMP adequada e revisar com profissional LGPD.
+7. Links externos (WhatsApp, redes sociais) podem coletar dados em seus próprios domínios ao serem acessados.
+8. A política de privacidade deve ser acessível pelo site antes de publicar; este pacote contém uma página preliminar.
+
+Não publicar sem testes e revisão legal.
